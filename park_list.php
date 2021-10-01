@@ -38,8 +38,7 @@
 
 							</td>
 							<td class="text-center">
-								<a class="btn btn-sm btn-outline-primary view_park" href="index.php?page=view_parked_details&id=<?php echo $row['id'] ?>" class="<?php echo $row['id'] ?>">Ver</a>
-								<a class="btn btn-sm btn-outline-danger delete_park" href="javascript:void(0)" class="<?php echo $row['id'] ?>">Eliminar</a>
+								<a class="btn btn-sm btn-outline-primary view_park" href="index.php?page=view_parked_details&id=<?php echo $row['id'] ?>" class="<?php echo $row['id'] ?>">Ver</a>							
 							</td>
 						</tr>
 					<?php endwhile ?>
